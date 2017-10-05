@@ -1,0 +1,71 @@
+body {
+  font-family: monospace;
+  background-color: skyblue;
+}
+
+.flexHorizontal {
+  background-color: skyblue;
+}
+
+.lotList {
+  font-size: 36px;
+  text-align: center;
+  background-color: green;
+}
+
+.lotList > * {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.lotList > *:hover {
+  color: magenta;
+}
+
+.single_lot {
+  background-color: gray;
+}
+
+.lil_space {
+  font-size: 20px;
+  border-top: 4px solid yellow;
+  border-left: 4px dashed yellow;
+  border-right: 4px dashed yellow;
+}
+
+.lil_space:hover {
+  background-color: rgba(0,128,0,.20)
+}
+
+.occupied {
+  font-size: 20px;
+  border-top: 4px solid yellow;
+  border-left: 4px dashed yellow;
+  border-right: 4px dashed yellow;
+  background-color: rgba(255,0,0,.20);
+}
+
+.parkingInput {
+  opacity: .8;
+}
+
+.transRecord {
+  background-color: teal;
+}
+
+.singleRecord {
+  border-bottom: 2px solid black;
+}
+
+.date {
+  color: salmon;
+}
+
+.total {
+  color: limegreen;
+}
+
+#transactions {
+  padding-top: 40px;
+  font-size: 24px;
+}
